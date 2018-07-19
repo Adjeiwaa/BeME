@@ -87,7 +87,7 @@ That's Emerald, The Front End Manager
 
 - Planning and Content Creation
 
-- Front End Development (HTML, CSS, JS.
+- Front End Development (HTML, CSS, JS)
 
 +++
 
