@@ -1,1 +1,0 @@
-web: gunicorn checkify.wsgi --log-file -
