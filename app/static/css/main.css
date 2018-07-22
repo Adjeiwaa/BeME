@@ -1,0 +1,56 @@
+html,body {
+  font-family: 'Open Sans', serif;
+}
+.hero.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://picsum.photos/1200/900/?image=370') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+
+.tabs {
+margin-bottom: -1px !important;
+position: relative;
+}
+.tab-content {
+padding: 60px;
+top: 197px;
+color: #000;
+background-color: white;
+}
+.tab-pane {
+display: none;
+}
+.tab-pane.is-active {
+display: block;
+width: 50%;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+.is-active {
+display: initial;
+}
+
+.cent{
+display: block;
+margin: 10px auto;
+padding: 5px;
+border: 1px solid #ccc}
+
+.video
+{display: block;
+margin: 0 auto;}
