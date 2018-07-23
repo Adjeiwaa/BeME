@@ -1,0 +1,59 @@
+{% extends "layout.html" %} 
+{% block content %}
+
+<script>
+    (function () {
+        var cx = '012999949241371576039:gfb5nu9_xbq';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+</script>
+
+
+
+    <section class="hero is-info is-fullheight">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column is-half is-offset-3">
+                        <h1 class="title">
+                            Mulsearch
+                        </h1>
+                        <h2 class="subtitle">
+                            Multiple results in one place
+                        </h2>
+                    </div>
+        <section class="hero is-info">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="control has-icons-left has-icons-right search-field">
+                                    <div style="width:0px;overflow:hidden;height:0px;">
+                                        <!-- if you use display:none here, it doesn't work-->
+                                        <gcse:search enableAutoComplete="true"></gcse:search>
+                                    </div>
+                                    <form>
+                                        <input value="XXXXXXXXXX:YYYYYYYYY" name="cx" type="hidden" />
+                                        <input value="FORID:11" name="cof" type="hidden" />
+                                        <input id="q" name="q" size="75" type="text" class="input is-large" placeholder="ｓｅａｒｃｈｂｏｘ" />
+                                        <span class="icon is-medium is-left">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                        <input type="submit" style="display:none" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                </div>
+            </div>
+    </section>
+{% endblock %}
